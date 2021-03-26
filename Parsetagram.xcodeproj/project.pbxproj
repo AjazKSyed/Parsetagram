@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9D53E7584A4BC2A63C2CE515 /* Pods_Parsetagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAAD5CE912F9579F4A69674 /* Pods_Parsetagram.framework */; };
+		A53826BF260DBC8800501B22 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53826BE260DBC8800501B22 /* CommentCell.swift */; };
 		A5419CBE2605A07000725240 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5419CBD2605A07000725240 /* AppDelegate.swift */; };
 		A5419CC02605A07000725240 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5419CBF2605A07000725240 /* SceneDelegate.swift */; };
 		A5419CC52605A07000725240 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5419CC32605A07000725240 /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		5CAAD5CE912F9579F4A69674 /* Pods_Parsetagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parsetagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86834BB42DCAE9856632488C /* Pods_ParsetagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParsetagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89CF5794D224DA275C4D93F0 /* Pods-ParsetagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParsetagramTests.release.xcconfig"; path = "Target Support Files/Pods-ParsetagramTests/Pods-ParsetagramTests.release.xcconfig"; sourceTree = "<group>"; };
+		A53826BE260DBC8800501B22 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		A5419CBA2605A07000725240 /* Parsetagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parsetagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5419CBD2605A07000725240 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5419CBF2605A07000725240 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				A5538B802605A67700D538E0 /* FeedViewController.swift */,
 				A5538B882605AD0200D538E0 /* CameraViewController.swift */,
 				A5538B8D2605BE5F00D538E0 /* PostCell.swift */,
+				A53826BE260DBC8800501B22 /* CommentCell.swift */,
 			);
 			path = Parsetagram;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				A5538B812605A67700D538E0 /* FeedViewController.swift in Sources */,
 				A5419CC02605A07000725240 /* SceneDelegate.swift in Sources */,
 				A5538B8E2605BE5F00D538E0 /* PostCell.swift in Sources */,
+				A53826BF260DBC8800501B22 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
